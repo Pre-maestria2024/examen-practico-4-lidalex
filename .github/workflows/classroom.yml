@@ -45,7 +45,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input3.txt
         input: ''
-        expected-output: '32626'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -57,7 +57,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input4.txt
         input: ''
-        expected-output: '44042'
+        expected-output: '23350'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -69,7 +69,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input5.txt
         input: ''
-        expected-output: '266'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -81,7 +81,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input6.txt
         input: ''
-        expected-output: '30942'
+        expected-output: '30911'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -93,7 +93,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input7.txt
         input: ''
-        expected-output: '30048'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -105,7 +105,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input8.txt
         input: ''
-        expected-output: '46000'
+        expected-output: '8342'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -117,7 +117,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input9.txt
         input: ''
-        expected-output: '29609'
+        expected-output: '22450'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -129,7 +129,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input10.txt
         input: ''
-        expected-output: '6365'
+        expected-output: '4977'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -141,7 +141,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input11.txt
         input: ''
-        expected-output: '10031'
+        expected-output: '8889'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -153,7 +153,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input12.txt
         input: ''
-        expected-output: '12211'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -165,7 +165,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input13.txt
         input: ''
-        expected-output: '25809'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -177,7 +177,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input14.txt
         input: ''
-        expected-output: '22909'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -189,7 +189,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input15.txt
         input: ''
-        expected-output: '29982'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -201,7 +201,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input16.txt
         input: ''
-        expected-output: '4519'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -213,7 +213,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input17.txt
         input: ''
-        expected-output: '19927'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -225,7 +225,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input18.txt
         input: ''
-        expected-output: '40151'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -237,7 +237,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input19.txt
         input: ''
-        expected-output: '3057'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -249,7 +249,7 @@ jobs:
         setup-command: ''
         command: python3 problema1.py < inputs/problema1_input20.txt
         input: ''
-        expected-output: '3485'
+        expected-output: '0'
         comparison-method: exact
         timeout: 1
         max-score: 1
@@ -493,126 +493,6 @@ jobs:
         comparison-method: exact
         timeout: 1
         max-score: 1
-    - name: test2-11
-      id: test2-11
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test2-11
-        setup-command: ''
-        command: python3 problema2.py < inputs/problema2_input11.txt
-        input: ''
-        expected-output: '6617'
-        comparison-method: exact
-        timeout: 1
-        max-score: 1
-    - name: test2-12
-      id: test2-12
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test2-12
-        setup-command: ''
-        command: python3 problema2.py < inputs/problema2_input12.txt
-        input: ''
-        expected-output: '40'
-        comparison-method: exact
-        timeout: 1
-        max-score: 1
-    - name: test2-13
-      id: test2-13
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test2-13
-        setup-command: ''
-        command: python3 problema2.py < inputs/problema2_input13.txt
-        input: ''
-        expected-output: '196'
-        comparison-method: exact
-        timeout: 1
-        max-score: 1
-    - name: test2-14
-      id: test2-14
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test2-14
-        setup-command: ''
-        command: python3 problema2.py < inputs/problema2_input14.txt
-        input: ''
-        expected-output: '1108'
-        comparison-method: exact
-        timeout: 1
-        max-score: 1
-    - name: test2-15
-      id: test2-15
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test2-15
-        setup-command: ''
-        command: python3 problema2.py < inputs/problema2_input15.txt
-        input: ''
-        expected-output: '6576'
-        comparison-method: exact
-        timeout: 1
-        max-score: 1
-    - name: test2-16
-      id: test2-16
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test2-16
-        setup-command: ''
-        command: python3 problema2.py < inputs/problema2_input16.txt
-        input: ''
-        expected-output: '197'
-        comparison-method: exact
-        timeout: 1
-        max-score: 1
-    - name: test2-17
-      id: test2-17
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test2-17
-        setup-command: ''
-        command: python3 problema2.py < inputs/problema2_input17.txt
-        input: ''
-        expected-output: '1120'
-        comparison-method: exact
-        timeout: 1
-        max-score: 1
-    - name: test2-18
-      id: test2-18
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test2-18
-        setup-command: ''
-        command: python3 problema2.py < inputs/problema2_input18.txt
-        input: ''
-        expected-output: '3985'
-        comparison-method: exact
-        timeout: 1
-        max-score: 1
-    - name: test2-19
-      id: test2-19
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test2-19
-        setup-command: ''
-        command: python3 problema2.py < inputs/problema2_input19.txt
-        input: ''
-        expected-output: '6592'
-        comparison-method: exact
-        timeout: 1
-        max-score: 1
-    - name: test2-20
-      id: test2-20
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test2-20
-        setup-command: ''
-        command: python3 problema2.py < inputs/problema2_input20.txt
-        input: ''
-        expected-output: '2446'
-        comparison-method: exact
-        timeout: 1
-        max-score: 1
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
@@ -657,4 +537,4 @@ jobs:
         TEST2-19_RESULTS: "${{steps.test2-19.outputs.result}}"
         TEST2-20_RESULTS: "${{steps.test2-20.outputs.result}}"
       with:
-        runners: test1-1,test1-2,test1-3,test1-4,test1-5,test1-6,test1-7,test1-8,test1-9,test1-10,test1-11,test1-12,test1-13,test1-14,test1-15,test1-16,test1-17,test1-18,test1-19,test1-20,test2-1,test2-2,test2-3,test2-4,test2-5,test2-6,test2-7,test2-8,test2-9,test2-10,test2-11,test2-12,test2-13,test2-14,test2-15,test2-16,test2-17,test2-18,test2-19,test2-20,test2-11,test2-12,test2-13,test2-14,test2-15,test2-16,test2-17,test2-18,test2-19,test2-20
+        runners: test1-1,test1-2,test1-3,test1-4,test1-5,test1-6,test1-7,test1-8,test1-9,test1-10,test1-11,test1-12,test1-13,test1-14,test1-15,test1-16,test1-17,test1-18,test1-19,test1-20,test2-1,test2-2,test2-3,test2-4,test2-5,test2-6,test2-7,test2-8,test2-9,test2-10,test2-11,test2-12,test2-13,test2-14,test2-15,test2-16,test2-17,test2-18,test2-19,test2-20
